@@ -1,0 +1,242 @@
+.skip a {
+    position: absolute;
+    top: -50vw;
+    background-color: #FFCB05;
+    color:#00274C;
+}
+
+.skip a:focus {
+    position: absolute;
+    top: 5vw;
+    background-color: #FFCB05;
+    color:#00274C;
+    border: 0.5vh solid #00274C;
+}
+
+body {
+    background-color: #2F65A7;
+}
+
+h1 {
+    color: white;
+}
+
+footer {
+    background-color: #FFCB05;
+    border: 0.5vh solid #00274C;
+    position: relative;
+    bottom: 0.1vh;
+}
+
+nav li {
+    display: inline;
+    background-color: #FFCB05;
+    padding: 1vw;
+    align-items: center;
+    text-align: center;
+    font-size: 5vw;
+    border: 0.25vh solid #00274C;
+}
+
+nav li a:active {
+    background-color: white;
+}
+
+#UHS-image img {
+    width: 50vw;
+    height: 10vh;
+}
+
+#diag-image img {
+    width: 50vw;
+}
+
+.container-index {
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    grid-gap: 1vw;
+    background-color: #00274C;
+}
+
+.section1index {
+    grid-column: 1 / span 1;
+    text-align: center;
+    border: 0.5vw solid white;
+}
+
+.section1index h2 {
+    color: #FFCB05;
+    font-weight: bold;
+}
+
+.section1index p {
+    color: #FFCB05;
+}
+
+.section1index li {
+    font-weight: bold;
+    color: #FFCB05;
+}
+
+.section2index {
+    grid-column: 2 / span 2;
+}
+
+.section2index img {
+    grid-column: 1 / span 3;
+}
+
+.section2index h2 {
+    color: #FFCB05;
+}
+
+.section2index h3 {
+    color: #FFCB05;
+}
+
+.section2index figcaption {
+    color: white;
+    font-style: italic;
+}
+
+.section2index p {
+    color: white;
+}
+
+.section3index, #life-outside-classroom {
+    grid-column: 1 / -1;
+}
+
+.section3index h2, #life-outside-classroom h2 {
+    color: #FFCB05;
+}
+
+.section3index h3, #life-outside-classroom h3 {
+    color: #FFCB05;
+}
+
+.section3index p, #life-outside-classroom p {
+    color: white;
+}
+
+.section3index li, #life-outside-classroom li {
+    color: #FFCB05;
+}
+
+.container-pantry {
+    display: grid;
+    grid-template-columns: 48vw 48vw;
+    grid-template-rows: 50vh 50vh;
+    background-color: #00274C;
+}
+
+#homepantryphoto img {
+    width: 30vw;
+    height: 20vh;
+    border: 0.5vw solid white;
+}
+
+#entrance-photo img {
+    width: 25vw;
+}
+
+.mission h2, .mission p, .mission figure {
+    grid-column: 1 / 2;
+}
+
+div.mission {
+    color: white;
+    border: solid 0.3vw #FFCB05;
+}
+
+div.whoweare {
+    color: white;
+    border: solid 0.3vw #FFCB05;
+    text-align: center;
+}
+
+div.provide {
+    color: white;
+    font-size: 1.5vh;
+    border: solid 0.3vw #FFCB05;
+}
+
+div.location {
+    color: white;
+    text-align: right;
+    font-size: 1.4vh;
+    border: solid 0.3vw #FFCB05;
+}
+
+#pantryaddress a {
+    color: white;
+}
+
+.container-caps {
+    background-color: #00274C;
+    border: 0.3vh solid white;
+}
+
+.container-caps h2, .container-caps h3, .container-caps a {
+    color: #FFCB05;
+}
+
+.container-caps p {
+    color: white;
+}
+
+div.caps-contact {
+    color: #FFCB05;
+}
+
+#stressless img {
+    width: 50vw;
+    border: solid 1vw white;
+}
+
+.container-tutor {
+    background-color: #00274C;
+    border: 0.3vh solid white;
+}
+
+.container-tutor h2, .container-tutor h3, .container-tutor a, .container-tutor h4 {
+    color: #FFCB05;
+}
+
+.container-tutor p, .container-tutor li {
+    color: white;
+}
+
+.container-tutor figcaption {
+    color: white;
+    font-style: italic;
+    top: 0.75vh;
+    position: relative;
+}
+
+#umsilogo img {
+    width: 95vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+#tutorphoto img {
+    width: 50vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+nav a:focus, nav a:hover {
+    text-decoration-line: underline;
+}
+
+.currentlink a {
+    background-color: #00274C;
+    color: #FFCB05;
+    border: 1vh solid #FFCB05;
+    text-decoration: wavy underline;
+}
